@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Tajawal;
+}
+body {
+  margin: 0;
+  background: linear-gradient(#e6e6e6, #fff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+}
+.logo {
+  width: 250px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-sec {
+  padding-bottom: 2rem;
+  min-height: 30vh;
+}
+.logo-img {
+  object-fit: contain;
+  width: 150px;
+  /* border: 2px solid #000; */
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: rgba(185, 170, 170, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.down-icon {
+  padding: 5px;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contact-section {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-elm {
+  border-radius: 20px;
+  /* border: 2px solid green; */
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  min-width: 200px;
+  width: 650px;
+  margin: 1rem 0;
+  background-color: #fff;
+  box-shadow: rgba(196, 176, 176, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media (max-width: 768px) {
+  .contact-elm {
+    width: 50%;
+  }
+}
+
+.elm-box {
+  width: 95%;
+  justify-content: space-between;
+}
+.icon {
+  float: right;
+}
+
+.img-icon {
+  width: 30px;
+}
+
+.ads-img {
+  object-fit: contain;
+  width: 95%;
+}
+
+.span-center {
+  margin: auto;
+}
+
+.min-title {
+  margin: 1rem 0;
+  color: #fff;
+  padding: 0.2rem 1rem;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+.sub-title {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  /* text-shadow: 2px 2px #0000003b; */
+}
